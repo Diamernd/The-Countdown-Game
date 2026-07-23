@@ -60,8 +60,10 @@
     <Compile Include="Assets\PlayMaker\Actions\Lights\SetLightSpotAngle.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Array\ArrayAddRange.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorLayerCount.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\enableTextmeshProWrappingAndOverflow.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector2\Vector2Interpolate.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\GetButtonDown.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\setTextmeshProTextColorGradient.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutRepeatButton.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Debug\DebugEnum.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\GetKeyDown.cs" />
@@ -108,20 +110,26 @@
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\Trigger2dEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\Vector3Compare.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Lights\SetLightRange.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProInputText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ScriptControl\InvokeMethod.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Camera\GetMainCamera.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Lights\SetLightCookie.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\enableTextmeshProUGUIWrappingAndOverflow.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\RandomBool.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SpriteRenderer\GetSpriteMaskInteraction.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\Rotate.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiInputFieldMoveCaretToTextStart.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUIGradientPreset.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\GetNextLineCast2d.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\enableTextmeshProUGUIExtraPadding.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Character\GetControllerCollisionFlags.cs" />
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\EnableFSM.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Device\TouchEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerSetAudioOutputMode.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetIsPrepared.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesFace.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerLoopPointReachedEvent.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\enableTextmeshProOverrideTags.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\GetButtonUp.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorLayerName.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorCurrentTransitionInfoIsName.cs" />
@@ -191,10 +199,12 @@
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\GetFsmState.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SceneManager\UnloadScene.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\SetName.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\enableTextmeshProUGUITextColorGradient.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\NavMeshAgentAnimatorSynchronizer.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Effects\ParticleSystemPlay.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\FloatCompare.cs" />
     <Compile Include="Assets\PlayMaker\Actions\RectTransform\RectTransformSetAnchorMinAndMax.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\enableTextmeshProFontAsset.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\GetRandomObject.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector2\Vector2MoveTowards.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\SetAnimatorPlaybackTime.cs" />
@@ -239,8 +249,11 @@
     <Compile Include="Assets\PlayMaker\Actions\PlayerInput\PlayerInputUpdateActionBase.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\GameObjectIsVisibleToCamera.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Material\SetTextureScale.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesGlow.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\setTextmeshProUvMappingOptions.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\SetVector3XYZ.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics\GetMass.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUIFontSize.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\IntCompare.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\FsmStateSwitch.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Debug\DebugFloat.cs" />
@@ -253,6 +266,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Transform\SmoothFollowAction.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Tween\BaseActions\TweenActionBase.cs" />
     <Compile Include="Assets\PlayMaker\Actions\PlayerInput\PlayerInputPerformedEvent.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\setTextmeshProUGUIFontMaterialPreset.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\AnimatorMatchTarget.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\ClampPosition.cs" />
     <Compile Include="Assets\PlayMaker\Actions\RectTransform\RectTransformPixelAdjustRect.cs" />
@@ -264,6 +278,7 @@
     <Compile Include="Assets\PlayMaker\Actions\UI\Selectable\UiGetBlockColor.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Time\GetTimeInfo.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutBeginArea.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUITextColor.cs" />
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\GetEventVector3Data.cs" />
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\SendEventToFsm.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\RandomFloat.cs" />
@@ -285,9 +300,11 @@
     <Compile Include="Assets\PlayMaker\Actions\Application\GetScreenWidth.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SpriteRenderer\SetSpriteFlip.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Audio\PlaySound.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesBumpmap.cs" />
     <Compile Include="Assets\PlayMaker\Actions\RectTransform\RectTransformPixelAdjustPoint.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerSetPlayOnAwake.cs" />
     <Compile Include="Assets\PlayMaker\Actions\RenderSettings\EnableFog.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesGlow.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\GetAxis.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Array\ArrayGetNext.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SpriteRenderer\GetSpriteSortingLayer.cs" />
@@ -300,6 +317,7 @@
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerSetTargetCamera.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics\TriggerEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\SetPosition2d.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\setTextmeshProUGUISortingLayer.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\GetMouseX.cs" />
     <Compile Include="Assets\PlayMaker\Actions\AnimateVariables\CurveVector3.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Lights\SetLightIntensity.cs" />
@@ -331,6 +349,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Camera\WorldToScreenPoint.cs" />
     <Compile Include="Assets\PlayMaker\Actions\PlayerInput\PlayerInputGetFloat.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Array\ArraySort.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\setTextmeshProTextColor.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\FsmStateTest.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiTextGetText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\StringContains.cs" />
@@ -377,6 +396,7 @@
     <Compile Include="Assets\PlayMaker\Actions\SpriteRenderer\GetSprite.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerFrameReadyEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\String\BuildString.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\setTextmeshProSpacingOptions.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Rect\SetRectValue.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\IntSubtract.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Rect\SetRectFromPoints.cs" />
@@ -402,6 +422,8 @@
     <Compile Include="Assets\PlayMaker\Actions\RectTransform\RectTransformGetSizeDelta.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\IntAdd.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\UiGetSelectedGameObject.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesUnderlay.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesOutline.cs" />
     <Compile Include="Assets\PlayMaker\FsmProcessor.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Material\SetMaterialTexture.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\SetRandomRotation.cs" />
@@ -418,6 +440,7 @@
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerSetWaitForFirstFrame.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Selectable\UiExplicitNavigationGetProperties.cs" />
     <Compile Include="Assets\PlayMaker\Actions\PlayerInput\PlayerInputCanceledEvent.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesOutline.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Components\PlayMakerUiVector2ValueChangedEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\GUIAction.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\DeactivateSelf.cs" />
@@ -460,8 +483,10 @@
     <Compile Include="Assets\PlayMaker\Actions\UI\UiInputFieldGetPlaceHolder.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorNextStateInfo.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Camera\SetCameraCullingMask.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\setTextmeshProUGUIUvMappingOptions.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\GameObjectCompare.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Array\ArrayResize.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\enableTextmeshProUGUIFontAsset.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Character\ControllerMoveInAir.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\SetRotation.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiSliderGetValue.cs" />
@@ -492,6 +517,7 @@
     <Compile Include="Assets\PlayMaker\Actions\UI\Components\PlayMakerUiDragEvents.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Movie\PauseMovieTexture.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\FloatDivide.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesUnderlay.cs" />
     <Compile Include="Assets\PlayMaker\Actions\PlayerInput\PlayerInputEnableActionMap.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\FloatOperator.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Selectable\UiExplicitNavigationSetProperties.cs" />
@@ -511,6 +537,7 @@
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetWaitForFirstFrame.cs" />
     <Compile Include="Assets\PlayMaker\Actions\TestAction.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\ScreenPick.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUITextAlignment.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\GameObjectIsChildOf.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\EnumSwitch.cs" />
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\GetEventInfo.cs" />
@@ -625,6 +652,7 @@
     <Compile Include="Assets\PlayMaker\Actions\UI\Components\PlayMakerUiIntValueChangedEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiDropDownSetValue.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics\UseGravity.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\enableTextmeshProUGUIOverrideTags.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiInputFieldSetPlaceHolder.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SceneManager\SetActiveScene.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\WaitAnyKey.cs" />
@@ -634,6 +662,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Time\GetSystemDateTime.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ScriptControl\AxisEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiDropDownAddOptions.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUIFontStyle.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ScriptControl\StartCoroutine.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\RotateGUI.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\BoolTest.cs" />
@@ -643,6 +672,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Color\SetColorValue.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\GetMouseButtonDown.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Material\SetRandomMaterial.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\setTextmeshProFontStyle.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\Translate.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\GetVectorLength.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Gamepad\GamepadGetButtonValues.cs" />
@@ -657,6 +687,7 @@
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetTargetCamera.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\SmoothLookAtDirection.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\GetNextRayCast2d.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\enableTextmeshProUGUIAutoSizeTextContainer.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\FloatSwitch.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiInputFieldSetAsterixChar.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector2\Vector2Normalize.cs" />
@@ -678,10 +709,12 @@
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutPasswordField.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutLabel.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SpriteRenderer\SetSpriteMaskInteraction.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\enableTextmeshProKerning.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiButtonArray.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ScriptControl\CallStaticMethod.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\SetWheelJoint2dProperties.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\SetFloatValue.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\setTextmeshProUGUIMargins.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Camera\SetMainCamera.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\UiEventSystemCurrentRayCastAll.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\UiSetSelectedGameObject.cs" />
@@ -708,6 +741,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\WakeAllRigidBodies2d.cs" />
     <Compile Include="Assets\PlayMaker\Actions\AnimateVariables\CurveFsmAction.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\BoolAnyTrue.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\setTextmeshProMargins.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Convert\ConvertBoolToColor.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Array\ArrayRemoveAll.cs" />
@@ -715,6 +749,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3LowPassFilter.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorCurrentTransitionInfo.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Trigonometry\GetAtan.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUIText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\CreateNewGameObject.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiDropDownGetSelectedData.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Tween\BaseActions\TweenExtensions.cs" />
@@ -744,6 +779,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Math\FloatAbs.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\SetAnimatorLayersAffectMassCenter.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Array\ArrayGet.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\getTextmeshProText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\PlayerPrefs\PlayerPrefsSetInt.cs" />
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\GetLastEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Input\MouseLook.cs" />
@@ -789,7 +825,9 @@
     <Compile Include="Assets\PlayMaker\Actions\String\StringJoin.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiScrollbarGetValue.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Array\FsmArraySet.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\getTextmeshProInputText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Selectable\UiSetAnimationTriggers.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesLighting.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Tween\BaseActions\TweenVariableBase.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiToggleSetIsOn.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics\SetMass.cs" />
@@ -798,6 +836,7 @@
     <Compile Include="Assets\PlayMaker\Actions\PlayerPrefs\PlayerPrefsHasKey.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Debug\DrawDebugLine.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Material\GetMaterialTexture.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\setTextmeshProGradientPreset.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\ScaleGUI.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\DrawFullscreenColor.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3Interpolate.cs" />
@@ -806,6 +845,7 @@
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetRenderMode.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ScriptControl\SendMessage.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\FloatChanged.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesEnvMap.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetFrameRate.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3HighPassFilter.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutVerticalSlider.cs" />
@@ -826,6 +866,7 @@
     <Compile Include="Assets\PlayMaker\Actions\GameObject\GetNextChild.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\DestroyComponent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\RectTransform\RectTransformSetAnchorRectPosition.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\setTextmeshProFontSize.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics\Raycast.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\MousePick2d.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Transform\InverseTransformDirection.cs" />
@@ -862,6 +903,7 @@
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetTime.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Audio\AudioPlay.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutFloatLabel.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUITextColorGradient.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Canvas\UiCanvasForceUpdateCanvases.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Device\GetLocationInfo.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerPlay.cs" />
@@ -871,7 +913,9 @@
     <Compile Include="Assets\PlayMaker\Actions\GameObject\ActivateGameObject.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\SyncAnimatorBoolToState.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiInputFieldGetText.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesLighting.cs" />
     <Compile Include="Assets\PlayMaker\Actions\String\SelectRandomString.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\enableTextmeshProUGUIAutoSizeText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutEndVertical.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\FloatClamp.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerSetUrl.cs" />
@@ -889,6 +933,7 @@
     <Compile Include="Assets\PlayMaker\Actions\RectTransform\RectTransformSetAnchorMin.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3SnapToGrid.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Material\SetMaterial.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesBevel.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Canvas\UiCanvasEnableRaycast.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutEndCentered.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animation\PlayRandomAnimation.cs" />
@@ -898,6 +943,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Material\SetVisibility.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\AnimatorStopPlayback.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3PerSecond.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Shaders\setTextmeshProUGUIShaderPropertiesEnvMap.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\SetGUIColor.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics\FindOverlaps.cs" />
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\SendRandomEvent.cs" />
@@ -925,11 +971,14 @@
     <Compile Include="Assets\PlayMaker\Actions\Animator\SetAnimatorInt.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\GetRayCastHit2dInfo.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\GUIButton.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesBevel.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiGraphicCrossFadeAlpha.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Audio\SetGameVolume.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Components\PlayMakerUiPointerEvents.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutTextField.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetSendFrameReadyEvents.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\enableTextmeshProTextColorGradient.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\setTextmeshProFontMaterialPreset.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\UiOnDragEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ActionHelpers.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\EventTriggerActionBase.cs" />
@@ -938,6 +987,7 @@
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\BlockEvents.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Character\GetControllerVelocity.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3Multiply.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\setTextmeshSortingLayer.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Convert\ConvertIntToString.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SceneManager\CreateScene.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\SetCollider2dIsTrigger.cs" />
@@ -968,6 +1018,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Debug\DebugBool.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector2\Vector2Invert.cs" />
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\SetFsmInt.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\enableTextmeshProExtraPadding.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\StringCompare.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector2\Vector2ClampMagnitude.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\GetTag.cs" />
@@ -996,6 +1047,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Transform\TransformPoint.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\UiOnEndDragEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\BoolNoneTrue.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesFace.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\FloatDeltaAngle.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerSetVideoClip.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\CreateEmptyObject.cs" />
@@ -1044,7 +1096,9 @@
     <Compile Include="Assets\PlayMaker\Actions\StateMachine\SetFsmString.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerGetIsLooping.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3Lerp.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\getTextmeshProUGUIText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\SetGUIBackgroundColor.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\setTextmeshProUGUISpacingOptions.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Trigonometry\GetAtan2.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\SetAnimatorTarget.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\GameObjectChanged.cs" />
@@ -1072,6 +1126,7 @@
     <Compile Include="Assets\PlayMaker\Actions\RenderSettings\SetHaloStrength.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\UiGetLastPointerEventDataInputButton.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector3\Vector3Add.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\enableTextmeshProAutoSizeText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ScriptControl\EnableBehaviour.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Vector2\Vector2LowPassFilter.cs" />
     <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
@@ -1083,7 +1138,9 @@
     <Compile Include="Assets\PlayMaker\Actions\GameObject\ActivateSolo.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorRightFootBottomHeight.cs" />
     <Compile Include="Assets\PlayMaker\Actions\AnimateVariables\EaseRect.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\setTextmeshProTextAlignment.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\Components\PlayMakerUiEventBase.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Shaders\setTextmeshProShaderPropertiesBumpmap.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Device\SwipeGestureEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiInputFieldOnSubmitEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\RectTransform\RectTransformGetLocalPosition.cs" />
@@ -1094,12 +1151,15 @@
     <Compile Include="Assets\PlayMaker\Actions\Animator\SetAnimatorLayerWeight.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\GetChildCount.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Physics2D\SetGravity2dScale.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\setTextmeshProText.cs" />
     <Compile Include="Assets\PlayMaker\Actions\VideoPlayer\VideoPlayerSetPlaybackSpeed.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUI\GUIBox.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GUILayout\GUILayoutIntField.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Logic\RectCompare.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Gamepad\GamepadReadButtonValue.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Advanced\enableTextmeshProUGUIKerning.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Math\FloatInterpolate.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\actions\Advanced\enableTextmeshProAutoSizeTextContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1109,6 +1169,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\PlayMaker\Templates\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\PlayMaker Custom Actions\TMP 2022\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\PlayMaker\ConditionalExpression.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
