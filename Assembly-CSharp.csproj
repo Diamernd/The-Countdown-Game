@@ -660,6 +660,7 @@
     <Compile Include="Assets\PlayMaker\Actions\Input\GetMouseY.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ComponentAction.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Time\GetSystemDateTime.cs" />
+    <Compile Include="Assets\Scenes\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ScriptControl\AxisEvent.cs" />
     <Compile Include="Assets\PlayMaker\Actions\UI\UiDropDownAddOptions.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\TMP 2022\TextMeshPro_Playmaker-master\uguiActions\Basic\setTextmeshProUGUIFontStyle.cs" />
