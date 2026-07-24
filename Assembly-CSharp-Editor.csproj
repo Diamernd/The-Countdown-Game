@@ -73,6 +73,7 @@
     <Compile Include="Assets\PlayMaker\Editor\FsmTemplateWindow.cs" />
     <Compile Include="Assets\net.fabrejean\Editor\PlayMaker\Ecosystem\Classes\Item.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Editor\SetCameraFOVActionEditor.cs" />
+    <Compile Include="Assets\codeandweb.com\Editor\UIImageSetSizeAndPivot.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Tween\Editor\TweenPositionEditor.cs" />
     <Compile Include="Assets\net.fabrejean\Editor\Plugins\EditorCoroutine.cs" />
     <Compile Include="Assets\PlayMaker\Editor\PlayMakerBuildCallbacks.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="Assets\PlayMaker\Editor\FsmActionWindow.cs" />
     <Compile Include="Assets\PlayMaker\Editor\PreUpdateChecker.cs" />
     <Compile Include="Assets\PlayMaker\Actions\SceneManager\Editor\GetSceneRootGameObjectsCustomEditor.cs" />
+    <Compile Include="Assets\codeandweb.com\Editor\SpritesheetImporter.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBoolActionEditor.cs" />
     <Compile Include="Assets\PlayMaker\Editor\ReportWindow.cs" />
     <Compile Include="Assets\PlayMaker\Actions\Editor\CallMethodEditor.cs" />
@@ -196,6 +198,7 @@
     <None Include="Assets\PlayMaker\Editor\it\PlayMakerEditorResources.resources.dll" />
     <None Include="Assets\PlayMaker\Editor\Resources\CustomVariableTypes.txt" />
     <None Include="Assets\PlayMaker\Editor\es-ES\PlayMakerEditorResources.resources.dll" />
+    <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
     <None Include="Assets\PlayMaker\Editor\pt-BR\PlayMakerEditorResources.resources.dll" />
     <None Include="Assets\PlayMaker\Editor\Resources\VersionInfo.txt" />
     <None Include="Assets\PlayMaker\Editor\PlayMakerEditor.dll" />
@@ -211,6 +214,7 @@
     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\README.txt" />
     <None Include="Assets\PlayMaker\Editor\nl\PlayMakerEditorResources.resources.dll" />
     <None Include="Assets\PlayMaker\Editor\sv-SE\PlayMakerEditorResources.resources.dll" />
+    <None Include="Assets\codeandweb.com\Editor\TexturePackerImporter.dll" />
     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\VolcanicGuiSkin\ReadMeForCredits.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -840,6 +844,10 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TexturePackerImporter">
+      <HintPath>Assets\codeandweb.com\Editor\TexturePackerImporter.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
